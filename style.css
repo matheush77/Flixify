@@ -50,3 +50,7 @@ body {
     color: var(--cinza-secundario);
 }
 
+.container__imagem{
+    margin: 1em 0 2em 0;
+
+}
