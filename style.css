@@ -23,26 +23,29 @@ body {
     background-image: url("");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
-.container{
+.container {
     height 100vh;
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
 
-.container__botao{
+.container__botao {
     background-color: var(--botao-azul);
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao_secundario {
     background-color: transparent;
-    border: 2px solid var(--branco-principal)
+    border: 2px solid var(--branco-principal) 
 }
 
 .container__aviso {
@@ -50,7 +53,10 @@ body {
     color: var(--cinza-secundario);
 }
 
-.container__imagem{
+.container__imagem {
     margin: 1em 0 2em 0;
+}
 
+.container__caixa {
+    margin: 0 6em;
 }
