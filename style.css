@@ -90,3 +90,12 @@ body {
     padding: 2em;
 
 }
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+}
+
+.dispositivos{
+    text-align: center;
+}
