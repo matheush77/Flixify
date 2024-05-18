@@ -1,1 +1,1 @@
-# Fixify
+# Flixify
